@@ -170,20 +170,17 @@ code {
 .navbar{
   display: flex;
   padding: 5px 25px;
-  border-bottom: 1px solid green solid rgb(223, 223, 223);
+  border-bottom: 1px solid rgb(223, 223, 223);
   justify-content: space-between;
   height: 10vh;
 }
 .logo{
-  /* display: flex; */
   width: 65px;
   height: 60px;
-  /* border: 1px solid green solid red; */
 }
 .nav-links{
   display: flex;
   padding: 22px 25px;
-  /* border: 1px solid green solid red; */
   margin-right: 1rem;
 }
 .nav-profile{
@@ -205,7 +202,7 @@ code {
   margin-top: -15px;
   margin-left: 8px;
   flex-direction: column;
-  /* border: 1px solid green solid red ; */
+  background-color:  rgb(245, 246, 250);
 }
 .side-bar{
   display:flex ;
@@ -213,7 +210,6 @@ code {
   width: 300px;
   height: 70%;
   padding: 12px 20px;
-  border: 1px solid green solid blue;
 }
 .sidebar-text{
   font-size: 15px;
@@ -227,10 +223,96 @@ a{
   text-decoration: none;
   color: rgb(117, 117, 117);
 }
+.main-section{
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 90vh;
+  margin-left: -6rem;
+  background-color:  rgb(245, 246, 250);
+}
+.middle,
+.right{
+  /* border: 1px solid green; */
+  width: 400px;
+  height: 90vh;
+}
+.middle{
+  width:700px;
+  padding: 1rem 1rem;
+}
+.top-area{
+  width: 750px;
+  background-color: #ffff;
+  border-radius: 15px;
+  height: 15vh;
+  padding: 20px 1px;
+  justify-content: space-evenly;
+}
+.bottom-area{
+  width: 750px;
+  margin-top: 2rem;
+  background-color: #ffff;
+  border-radius: 15px;
+  height: 55vh;
+}
 @media screen and (max-width:480px){
-  /* .mobile-view{
+  .mobileview{
     display: flex;
     flex-direction: row;
-  } */
+  }
+  .mobile{
+    flex-direction: column;
+  }
+  .main-section{
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-left:2px;
+    width: 450px;
+    height: 60vh;
+    padding: 10px 16px;
+    background-color:  rgb(245, 246, 250);
+  }
+  .middle,
+.right{
+  /* border: 1px solid green; */
+  width: 400px;
+  height: 50vh;
+}
+.middle{
+  overflow-x: scroll;
+  
+}
+.estimation{
+  /* border: 1px solid red; */
+  width: 180px;
+  
+}
+.estimation1{
+  margin-left: 1rem;
+}
+.top-area{
+  width: 600px;
+  /* background-color: #ffffff; */
+  /* border-radius: 15px; */
+  height: 15vh;
+  padding: 20px 1px;
+}
+  h4 {
+    display: none;
+  }
+  .block{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+  }
+  .block1{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    flex-wrap: nowrap;
+    /* border: 1px solid red; */
+  }
 
 }
