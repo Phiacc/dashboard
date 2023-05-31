@@ -71,6 +71,7 @@ export const Icon = (props) => {
           <img src={virtualaccount}  alt="logo" /><span className="sidebar-text">Virtual Account</span>
           </a>
         </div>
+        <div className="flex LSA">
         <div className="mt-5 block" >
           <a href="/">
           <img src={livemode}  alt="logo" /> <span className="sidebar-text">Live Mode</span> 
@@ -87,7 +88,29 @@ export const Icon = (props) => {
           </a>
         </div>
         </div>
+        </div>
             </div>
+        );
+      }
+      if (props.type === "formatsquare") {
+        return (
+          <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" color="#EA8A15">
+                    <path d="M13.333 4.633v6.734a1.667 1.667 0 0 0-1.967 1.967H4.634a1.667 1.667 0 0 0-1.967-1.967V4.633a1.667 1.667 0 0 0 1.967-1.967h6.734a1.667 1.667 0 0 0 1.967 1.967Z" stroke="#EA8A15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4.667 3a1.667 1.667 0 1 1-3.335-.001A1.667 1.667 0 0 1 4.667 3ZM14.667 3a1.667 1.667 0 1 1-3.334 0 1.667 1.667 0 0 1 3.334 0ZM4.667 13a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0ZM14.667 13a1.667 1.667 0 1 1-3.335-.001 1.667 1.667 0 0 1 3.335.001Z" stroke="#EA8A15" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    </path></svg>
+        );
+      }
+      if (props.type === "formatsquareblue") {
+        return (
+          <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" color="#1A72F7">
+            <path d="M13.333 4.633v6.734a1.667 1.667 0 0 0-1.967 1.967H4.634a1.667 1.667 0 0 0-1.967-1.967V4.633a1.667 1.667 0 0 0 1.967-1.967h6.734a1.667 1.667 0 0 0 1.967 1.967Z" stroke="#1A72F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4.667 3a1.667 1.667 0 1 1-3.335-.001A1.667 1.667 0 0 1 4.667 3ZM14.667 3a1.667 1.667 0 1 1-3.334 0 1.667 1.667 0 0 1 3.334 0ZM4.667 13a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0ZM14.667 13a1.667 1.667 0 1 1-3.335-.001 1.667 1.667 0 0 1 3.335.001Z" stroke="#1A72F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </path></svg>
+        );
+      }
+      if (props.type === "formatsquarepurple") {
+        return (
+          <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg" color="#B01AF7">
+            <path d="M13.333 4.633v6.734a1.667 1.667 0 0 0-1.967 1.967H4.634a1.667 1.667 0 0 0-1.967-1.967V4.633a1.667 1.667 0 0 0 1.967-1.967h6.734a1.667 1.667 0 0 0 1.967 1.967Z" stroke="#B01AF7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4.667 3a1.667 1.667 0 1 1-3.335-.001A1.667 1.667 0 0 1 4.667 3ZM14.667 3a1.667 1.667 0 1 1-3.334 0 1.667 1.667 0 0 1 3.334 0ZM4.667 13a1.667 1.667 0 1 1-3.333 0 1.667 1.667 0 0 1 3.333 0ZM14.667 13a1.667 1.667 0 1 1-3.335-.001 1.667 1.667 0 0 1 3.335.001Z" stroke="#B01AF7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </path></svg>
         );
       }
     };
